@@ -1,0 +1,77 @@
+.ul {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.leftContent {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  overflow: hidden;
+}
+
+.rightContent {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.price {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 5px;
+}
+
+.cartWrapper {
+  min-width: 80%;
+}
+
+@media (min-width: 500px) {
+  .cartWrapper {
+    min-width: 500px;
+  }
+}
+
+.productQuantity {
+  font-size: 15px;
+  margin: 0 5px;
+  color: black;
+}
+
+.addRemoveQuantity {
+  border: none;
+  background-color: transparent;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.addRemoveQuantity:hover {
+  cursor: pointer;
+}
+
+.cartTotal {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.yourCartIsEmpty {
+  text-align: center;
+}
+
+.total {
+  text-align: end;
+}
+
+.paypalButton {
+  display: flex;
+  justify-content: flex-end;
+}

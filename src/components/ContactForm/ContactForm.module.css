@@ -1,0 +1,124 @@
+.title {
+  text-align: center;
+  margin: 20px 0 20px 0;
+  font-weight: 300;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  width: 50%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .form {
+    width: 95%;
+  }
+}
+
+.name {
+  padding: 10px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+
+.name:hover {
+  border: 1px solid black;
+}
+
+.name:focus {
+  border: 2px solid rgb(63, 81, 181);
+}
+
+.email {
+  padding: 10px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+
+.email:hover {
+  border: 1px solid black;
+}
+
+.email:focus {
+  border: 2px solid rgb(63, 81, 181);
+}
+
+.message {
+  padding: 10px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  min-height: 150px;
+  resize: none;
+  font-size: 16px;
+  font-weight: 300;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+
+.message:hover {
+  border: 1px solid black;
+}
+
+.message:focus {
+  border: 2px solid rgb(63, 81, 181);
+}
+
+.checkboxWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 10px 0 20px 0;
+}
+
+.checkbox {
+  margin: 0 0 0 10px;
+  /* align-self: flex-start; */
+}
+
+.checkboxText {
+  margin: 0 0 0 20px;
+  color: grey;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 13px;
+  font-weight: 300;
+  align-self: flex-start;
+  margin: 0 0 10px 10px;
+}
+
+.sendButton {
+  border: 1px solid lightgrey !important;
+  color: black;
+}
+
+.sendButton:hover {
+  border: 1px solid black !important;
+}
