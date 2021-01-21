@@ -6,19 +6,19 @@ A simple dynamic react shop. This project uses React.js, React-Router-dom for na
 Forms are created with Formik with Yup validation.
 Emails are sent with Emaijs lib.
 
-### Live demo:
+### Live demo: https://telescope-shop.netlify.app/
 
 ## Main Tech stack:
 
-* React.js,
-* React Context API,
-* React-router-dom,
-* Module css,
-* Material UI,
-* Contentful CMS,
-* Formik, Yup,
-* React-paypal-express-checkout,
-* EmailJS,
+- React.js,
+- React Context API,
+- React-router-dom,
+- Module css,
+- Material UI,
+- Contentful CMS,
+- Formik, Yup,
+- React-paypal-express-checkout,
+- EmailJS,
 
 ## Getting started:
 
@@ -50,4 +50,5 @@ The browser will automatically open on localhost:3000.
 If you have any problems to run the project, feel free to contact me by e-mail:
 
 ### szafraniecsebastian1@gmail.com
+
 # Telescope-Shop
