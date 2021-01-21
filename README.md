@@ -50,5 +50,3 @@ The browser will automatically open on localhost:3000.
 If you have any problems to run the project, feel free to contact me by e-mail:
 
 ### szafraniecsebastian1@gmail.com
-
-# Telescope-Shop
